@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+}
+
+input[id="number"] {
+  font-size: 75px;
+  text-align: center;
+  width: 190px;
+  margin: auto;
+}
+
+p,
+input[type=button] {
+  font-size: 75px;
+}
+
+#number {
+  display: none;
+}
+
+p {
+  margin: 2% 5% 2% 5%;
+}
+
+#buttons,
+#next {
+  margin: 2%;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#play {
+  margin-left: 25px;
+}
+
+.external {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.internal {
+  margin-left: auto;
+  margin-right: auto;
+}
