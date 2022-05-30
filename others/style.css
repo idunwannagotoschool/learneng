@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-size: 60px;
+}
+
+table,
+td {
+    border: 1px solid black;
+}
+
+table {
+    white-space: nowrap;
+    width: 100%;
+}
+
+svg {
+    vertical-align: text-top;
+}
