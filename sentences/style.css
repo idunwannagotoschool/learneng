@@ -16,3 +16,12 @@ table {
 svg {
     vertical-align: text-top;
 }
+
+input[type="range"],
+span {
+    height: 30px;
+}
+
+input[type="range"] {
+    width: 50%;
+}

@@ -17,3 +17,5 @@ read.forEach(function (content, index) {
         responsiveVoice.speak(speaktext);
     });
 });
+
+rate.addEventListener('change', e => (ratevalue.innerHTML = rate.value));
